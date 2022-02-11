@@ -351,7 +351,7 @@ footer {
         align-items: center;
     }
     .workGrid {
-        grid-template-rows: 300px 400px 300px 400px 300px 400px;
+        grid-template-rows: 300px 300px 300px 300px 300px 300px;
         grid-template-columns: 1fr;
         grid-template-areas:
         "loca"
@@ -361,5 +361,12 @@ footer {
         "ths"
         "thsSummary"
         ;
+    }
+    h4 {
+        padding-right: 5px;
+        font-size: 16pt;
+    }
+    p {
+        font-size: 16pt;
     }
 }
